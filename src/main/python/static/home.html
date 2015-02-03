@@ -1,0 +1,38 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 col-md-offset-3">
+            <div class="page-header">
+                <h1 style="text-align: center">Welcome to NgPyApp!</h1>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6 col-md-offset-3">
+            <div class="jumbotron">
+                <!-- Input form -->
+                <form ng-submit="submitNewInput()">
+                    <div class="input-group">
+                        <input class="form-control" type="text" ng-model="newInput" placeholder="New value">
+                        <span class="input-group-btn">
+                            <button class="btn btn-primary" type="submit">Add</button>
+                        </span>
+                    </div>
+                </form>
+                <br>
+                <!-- Input list -->
+                <ul class="list-group">
+                    <li class="list-group-item hoverable-item" ng-repeat="input in inputList">
+                        <div class="input-group">
+                            <input class="form-control" value="{{input.id}}" readonly>
+                            <span class="input-group-btn">
+                                <button class="btn btn-danger pull-right" ng-click="removeInput(input.id)">
+                                    <span class="glyphicon glyphicon-remove"></span>
+                                </button>
+                            </span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>

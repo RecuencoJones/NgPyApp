@@ -1,0 +1,6 @@
+.hoverable-item {
+}
+
+.hoverable-item:hover {
+    background-color: #e7e7e7;
+}
