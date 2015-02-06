@@ -1,0 +1,6 @@
+Flask==0.10.1
+Flask-Cors==1.10.2
+Flask-PyMongo==0.3.0
+Jinja2==2.7.3
+cryptography==0.7.2
+pymongo==2.8
