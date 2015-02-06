@@ -23,7 +23,7 @@
                 <ul class="list-group">
                     <li class="list-group-item hoverable-item" ng-repeat="input in inputList">
                         <div class="input-group">
-                            <input class="form-control" value="{{input.id}}" readonly>
+                            <input class="form-control" style="cursor: auto;" value="{{input.id}}" readonly>
                             <span class="input-group-btn">
                                 <button class="btn btn-danger pull-right" ng-click="removeInput(input.id)">
                                     <span class="glyphicon glyphicon-remove"></span>

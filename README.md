@@ -11,6 +11,11 @@ HTTP methods summary
 | __POST__    | /api/add/:__value__  | __def__ add(value)    | Adds a new value to the DB |
 | __DELETE__  | /api/del/:__value__  | __def__ delete(value) | Removes a value from the DB |
 
+Wishlist
+---------------
+
+- Token based authentication
+- User registration
 
 1. Requirements
 ==============
